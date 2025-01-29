@@ -155,7 +155,13 @@ section#qualification {
   height: 100vh;
 }
 section#qualification div {
-  padding: 150px 200px;
+  padding: 50px 200px;
+}
+section#qualification div h1 {
+  font-size: 48px;
+  padding-bottom: 50px;
+  color: #000;
+  text-align: center;
 }
 section#qualification div ul {
   display: flex;
@@ -296,7 +302,7 @@ section#contact div.container div.right {
   padding: 30px;
 }
 section#contact div.container div.right form {
-  padding: 200px 0;
+  padding: 50px 0;
 }
 section#contact div.container div.right form input {
   width: 90%;
@@ -340,4 +346,1683 @@ section#contact div.contact img {
 }
 section#contact div.contact img:hover {
   width: 60px;
+}
+
+@media (max-width: 1330px) {
+  section#menu {
+    padding: 30px 200px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  section#menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.left ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+  }
+  section#menu nav div.left ul li:hover a {
+    color: #0D72FC;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#menu nav div.right a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.right a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#home {
+    height: 100vh;
+    margin: 0px 100px;
+  }
+  section#home div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#home div div.left {
+    display: inline-block;
+  }
+  section#home div div.left h6 {
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  section#home div div.left h3 {
+    font-size: 40px;
+  }
+  section#home div div.left h3 b {
+    color: #0D72FC;
+    font-weight: 600;
+  }
+  section#home div div.left h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  section#home div div.left p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+  }
+  section#home div div.left a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  section#home div div.left a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.5s;
+    background-color: #0D72FC;
+    color: #fff;
+  }
+  section#home div div.right img {
+    height: 100vh;
+    z-index: -1;
+  }
+  section#about {
+    background: #0D72FC;
+    height: 100vh;
+  }
+  section#about div h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  section#about div p {
+    font-size: 16px;
+    padding: 0 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  section#about div div a.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+  section#about div div a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #fff;
+    color: #0D72FC;
+  }
+  section#about div div a.button img {
+    display: block;
+    width: 30px;
+  }
+  section#qualification {
+    height: 100vh;
+  }
+  section#qualification div {
+    padding: 75px 100px;
+  }
+  section#qualification div h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #000;
+    text-align: center;
+  }
+  section#qualification div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#qualification div ul li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3f3f3f;
+    border-radius: 16px 50px;
+  }
+  section#qualification div ul li:hover {
+    width: 32%;
+    border: 1px solid #3f3f3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  section#qualification div ul li h3 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+  }
+  section#qualification div ul li img {
+    width: 150px;
+    margin-left: 70px;
+  }
+  section#qualification div ul li p {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  section#qualification div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  section#qualification div ul li a:hover {
+    font-weight: 600;
+  }
+  section#project {
+    height: 100vh;
+    background: #0D72FC;
+    padding: 0 100px;
+  }
+  section#project div h1 {
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  section#project div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  section#project div ul li {
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+    width: 30%;
+    margin: 15px;
+    border-radius: 50px 50px 4px 4px;
+  }
+  section#project div ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 31%;
+  }
+  section#project div ul li img {
+    width: 100px;
+    margin-left: 90px;
+  }
+  section#project div ul li h4 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 20px;
+  }
+  section#project div ul li p {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+  }
+  section#project div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section#project div ul li a:hover {
+    font-weight: 600;
+  }
+  section#contact {
+    height: 90vh;
+    padding: 50px 100px;
+  }
+  section#contact h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  section#contact div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+  }
+  section#contact div.container div.left {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.left h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section#contact div.container div.left p {
+    font-size: 16px;
+    text-align: center;
+  }
+  section#contact div.container div.right {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.right form {
+    padding: 200px 0;
+  }
+  section#contact div.container div.right form input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    background-color: #0D72FC;
+    color: #fff;
+    font-size: 18px;
+  }
+  section#contact div.container div.right form button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  section#contact div.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+  }
+  section#contact div.contact img {
+    width: 40px;
+    padding: 0 40px;
+  }
+  section#contact div.contact img:hover {
+    width: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  section#menu {
+    padding: 30px 100px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  section#menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.left ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+  }
+  section#menu nav div.left ul li:hover a {
+    color: #0D72FC;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#menu nav div.right a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.right a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#home {
+    height: 81vh;
+    margin: 0px 100px;
+  }
+  section#home div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#home div div.left {
+    display: inline-block;
+  }
+  section#home div div.left h6 {
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  section#home div div.left h3 {
+    font-size: 40px;
+  }
+  section#home div div.left h3 b {
+    color: #0D72FC;
+    font-weight: 600;
+  }
+  section#home div div.left h1 {
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+  section#home div div.left p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+  }
+  section#home div div.left a.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-right: 25px;
+  }
+  section#home div div.left a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.5s;
+    background-color: #0D72FC;
+    color: #fff;
+  }
+  section#home div div.right img {
+    height: 600px;
+  }
+  section#about {
+    background: #0D72FC;
+    height: 100vh;
+  }
+  section#about div h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  section#about div p {
+    font-size: 16px;
+    padding: 0 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  section#about div div a.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+  section#about div div a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #fff;
+    color: #0D72FC;
+  }
+  section#about div div a.button img {
+    display: block;
+    width: 30px;
+  }
+  section#qualification {
+    height: 100vh;
+  }
+  section#qualification div {
+    padding: 50px 100px;
+  }
+  section#qualification div h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #000;
+    text-align: center;
+  }
+  section#qualification div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#qualification div ul li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3f3f3f;
+    border-radius: 16px 50px;
+  }
+  section#qualification div ul li:hover {
+    width: 32%;
+    border: 1px solid #3f3f3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  section#qualification div ul li h3 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+  }
+  section#qualification div ul li img {
+    width: 150px;
+    margin-left: 70px;
+  }
+  section#qualification div ul li p {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  section#qualification div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  section#qualification div ul li a:hover {
+    font-weight: 600;
+  }
+  section#project {
+    height: 100vh;
+    background: #0D72FC;
+    padding: 0 100px;
+  }
+  section#project div h1 {
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  section#project div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  section#project div ul li {
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+    width: 30%;
+    margin: 10px;
+    border-radius: 50px 50px 4px 4px;
+  }
+  section#project div ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 31%;
+  }
+  section#project div ul li img {
+    width: 100px;
+    margin-left: 90px;
+  }
+  section#project div ul li h4 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 20px;
+  }
+  section#project div ul li p {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+  }
+  section#project div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section#project div ul li a:hover {
+    font-weight: 600;
+  }
+  section#contact {
+    height: 90vh;
+    padding: 50px 100px;
+  }
+  section#contact h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  section#contact div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+  }
+  section#contact div.container div.left {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.left h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section#contact div.container div.left p {
+    font-size: 16px;
+    text-align: center;
+  }
+  section#contact div.container div.right {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.right form {
+    padding: 200px 0;
+  }
+  section#contact div.container div.right form input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    background-color: #0D72FC;
+    color: #fff;
+    font-size: 18px;
+  }
+  section#contact div.container div.right form button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  section#contact div.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+  }
+  section#contact div.contact img {
+    width: 40px;
+    padding: 0 40px;
+  }
+  section#contact div.contact img:hover {
+    width: 60px;
+  }
+}
+@media (max-width: 992px) {
+  section#menu {
+    padding: 30px 100px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  section#menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 14px;
+  }
+  section#menu nav div.left ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+  }
+  section#menu nav div.left ul li:hover a {
+    color: #0D72FC;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#menu nav div.right a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  section#menu nav div.right a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#home {
+    height: 65vh;
+    margin: 0px 80px;
+  }
+  section#home div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#home div div.left {
+    display: inline-block;
+  }
+  section#home div div.left h6 {
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  section#home div div.left h3 {
+    font-size: 30px;
+  }
+  section#home div div.left h3 b {
+    color: #0D72FC;
+    font-weight: 600;
+  }
+  section#home div div.left h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  section#home div div.left p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+  }
+  section#home div div.left a.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  section#home div div.left a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.5s;
+    background-color: #0D72FC;
+    color: #fff;
+  }
+  section#home div div.right img {
+    height: 500px;
+  }
+  section#about {
+    background: #0D72FC;
+    height: 100vh;
+  }
+  section#about div h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  section#about div p {
+    font-size: 14px;
+    padding: 0 100px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  section#about div div a.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+  section#about div div a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #fff;
+    color: #0D72FC;
+  }
+  section#about div div a.button img {
+    display: block;
+    width: 30px;
+  }
+  section#qualification {
+    height: 100vh;
+  }
+  section#qualification div {
+    padding: 50px 100px;
+  }
+  section#qualification div h1 {
+    font-size: 38px;
+    padding-bottom: 100px;
+  }
+  section#qualification div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#qualification div ul li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3f3f3f;
+    border-radius: 16px 50px;
+  }
+  section#qualification div ul li:hover {
+    width: 32%;
+    border: 1px solid #3f3f3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  section#qualification div ul li h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  section#qualification div ul li img {
+    width: 100px;
+    margin-left: 60px;
+  }
+  section#qualification div ul li p {
+    text-align: center;
+    font-size: 14px;
+  }
+  section#qualification div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  section#qualification div ul li a:hover {
+    font-weight: 600;
+  }
+  section#project {
+    height: 100vh;
+    background: #0D72FC;
+    padding: 0 100px;
+  }
+  section#project div h1 {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 38px;
+  }
+  section#project div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  section#project div ul li {
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+    width: 30%;
+    margin: 10px;
+    border-radius: 50px 50px 4px 4px;
+  }
+  section#project div ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 31%;
+  }
+  section#project div ul li img {
+    width: 100px;
+    margin-left: 60px;
+  }
+  section#project div ul li h4 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 20px;
+  }
+  section#project div ul li p {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+  }
+  section#project div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  section#project div ul li a:hover {
+    font-weight: 600;
+  }
+  section#contact {
+    height: 90vh;
+    padding: 20px 100px;
+  }
+  section#contact h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+  section#contact div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+  }
+  section#contact div.container div.left {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.left h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section#contact div.container div.left p {
+    font-size: 14px;
+    text-align: center;
+  }
+  section#contact div.container div.right {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.right form {
+    padding: 100px 0;
+  }
+  section#contact div.container div.right form input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    background-color: #0D72FC;
+    color: #fff;
+    font-size: 14px;
+  }
+  section#contact div.container div.right form button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  section#contact div.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -100px;
+  }
+  section#contact div.contact img {
+    width: 40px;
+    padding: 0 40px;
+  }
+  section#contact div.contact img:hover {
+    width: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section#menu {
+    padding: 30px 200px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  section#menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.left ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+  }
+  section#menu nav div.left ul li:hover a {
+    color: #0D72FC;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#menu nav div.right a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.right a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#home {
+    height: 95vh;
+    margin: 0px 200px;
+  }
+  section#home div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#home div div.left {
+    display: inline-block;
+  }
+  section#home div div.left h6 {
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  section#home div div.left h3 {
+    font-size: 40px;
+  }
+  section#home div div.left h3 b {
+    color: #0D72FC;
+    font-weight: 600;
+  }
+  section#home div div.left h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  section#home div div.left p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+  }
+  section#home div div.left a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  section#home div div.left a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.5s;
+    background-color: #0D72FC;
+    color: #fff;
+  }
+  section#home div div.right img {
+    height: 95vh;
+  }
+  section#about {
+    background: #0D72FC;
+    height: 100vh;
+  }
+  section#about div h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  section#about div p {
+    font-size: 18px;
+    padding: 0 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  section#about div div a.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+  section#about div div a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #fff;
+    color: #0D72FC;
+  }
+  section#about div div a.button img {
+    display: block;
+    width: 30px;
+  }
+  section#qualification {
+    height: 100vh;
+  }
+  section#qualification div {
+    padding: 150px 200px;
+  }
+  section#qualification div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#qualification div ul li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3f3f3f;
+    border-radius: 16px 50px;
+  }
+  section#qualification div ul li:hover {
+    width: 32%;
+    border: 1px solid #3f3f3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  section#qualification div ul li h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  section#qualification div ul li img {
+    width: 200px;
+    margin-left: 90px;
+  }
+  section#qualification div ul li p {
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+  }
+  section#qualification div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  section#qualification div ul li a:hover {
+    font-weight: 600;
+  }
+  section#project {
+    height: 100vh;
+    background: #0D72FC;
+    padding: 0 200px;
+  }
+  section#project div h1 {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 44px;
+  }
+  section#project div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  section#project div ul li {
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+    width: 30%;
+    margin: 15px;
+    border-radius: 50px 50px 4px 4px;
+  }
+  section#project div ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 31%;
+  }
+  section#project div ul li img {
+    width: 150px;
+    margin-left: 100px;
+  }
+  section#project div ul li h4 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 22px;
+  }
+  section#project div ul li p {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+  }
+  section#project div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section#project div ul li a:hover {
+    font-weight: 600;
+  }
+  section#contact {
+    height: 90vh;
+    padding: 50px 200px;
+  }
+  section#contact h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  section#contact div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+  }
+  section#contact div.container div.left {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.left h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section#contact div.container div.left p {
+    font-size: 18px;
+    text-align: center;
+  }
+  section#contact div.container div.right {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.right form {
+    padding: 200px 0;
+  }
+  section#contact div.container div.right form input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    background-color: #0D72FC;
+    color: #fff;
+    font-size: 18px;
+  }
+  section#contact div.container div.right form button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  section#contact div.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -100px;
+  }
+  section#contact div.contact img {
+    width: 50px;
+    padding: 0 40px;
+  }
+  section#contact div.contact img:hover {
+    width: 60px;
+  }
+}
+@media (max-width: 576px) {
+  section#menu {
+    padding: 30px 50px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  section#menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#menu nav div.left ul li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  section#menu nav div.left ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 14px;
+  }
+  section#menu nav div.left ul li:hover a {
+    color: #0D72FC;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#menu nav div.right a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  section#menu nav div.right a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  section#home {
+    height: 95vh;
+    margin: 0px 200px;
+  }
+  section#home div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#home div div.left {
+    display: inline-block;
+  }
+  section#home div div.left h6 {
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  section#home div div.left h3 {
+    font-size: 40px;
+  }
+  section#home div div.left h3 b {
+    color: #0D72FC;
+    font-weight: 600;
+  }
+  section#home div div.left h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  section#home div div.left p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+  }
+  section#home div div.left a.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  section#home div div.left a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.5s;
+    background-color: #0D72FC;
+    color: #fff;
+  }
+  section#home div div.right img {
+    height: 95vh;
+  }
+  section#about {
+    background: #0D72FC;
+    height: 100vh;
+  }
+  section#about div h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  section#about div p {
+    font-size: 18px;
+    padding: 0 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  section#about div div a.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0D72FC;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+  section#about div div a.button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #fff;
+    color: #0D72FC;
+  }
+  section#about div div a.button img {
+    display: block;
+    width: 30px;
+  }
+  section#qualification {
+    height: 100vh;
+  }
+  section#qualification div {
+    padding: 150px 200px;
+  }
+  section#qualification div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section#qualification div ul li {
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #3f3f3f;
+    border-radius: 16px 50px;
+  }
+  section#qualification div ul li:hover {
+    width: 32%;
+    border: 1px solid #3f3f3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  section#qualification div ul li h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  section#qualification div ul li img {
+    width: 200px;
+    margin-left: 90px;
+  }
+  section#qualification div ul li p {
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+  }
+  section#qualification div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  section#qualification div ul li a:hover {
+    font-weight: 600;
+  }
+  section#project {
+    height: 100vh;
+    background: #0D72FC;
+    padding: 0 200px;
+  }
+  section#project div h1 {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 44px;
+  }
+  section#project div ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  section#project div ul li {
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+    width: 30%;
+    margin: 15px;
+    border-radius: 50px 50px 4px 4px;
+  }
+  section#project div ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 31%;
+  }
+  section#project div ul li img {
+    width: 150px;
+    margin-left: 100px;
+  }
+  section#project div ul li h4 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 22px;
+  }
+  section#project div ul li p {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+  }
+  section#project div ul li a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+    color: #0D72FC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section#project div ul li a:hover {
+    font-weight: 600;
+  }
+  section#contact {
+    height: 90vh;
+    padding: 50px 200px;
+  }
+  section#contact h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: -50px;
+  }
+  section#contact div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+  }
+  section#contact div.container div.left {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.left h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section#contact div.container div.left p {
+    font-size: 18px;
+    text-align: center;
+  }
+  section#contact div.container div.right {
+    width: 40%;
+    padding: 30px;
+  }
+  section#contact div.container div.right form {
+    padding: 200px 0;
+  }
+  section#contact div.container div.right form input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+  }
+  section#contact div.container div.right form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: 1px solid #3f3f3f;
+    background-color: #0D72FC;
+    color: #fff;
+    font-size: 18px;
+  }
+  section#contact div.container div.right form button:hover {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  section#contact div.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -100px;
+  }
+  section#contact div.contact img {
+    width: 50px;
+    padding: 0 40px;
+  }
+  section#contact div.contact img:hover {
+    width: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */
