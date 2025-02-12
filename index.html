@@ -15,16 +15,17 @@
 			<nav>
 				<div class="left">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About Me</a></li>
-						<li><a href="#">Qualification</a></li>
-						<li><a href="#">Project</a></li>
+						<li><a href="#home" class="visible">Home</a></li>
+						<li><a href="#about" class="visible">About Me</a></li>
+						<li><a href="#qualification" class="visible">Qualification</a></li>
+						<li><a href="#project" class="visible">Project</a></li>
 					</ul>
 				</div>
 				<div class="right">
-					<a href="#" class="button">Contact Me</a>
+					<a href="#contact" class="button visible">Contact Me</a>
 				</div>
 			</nav>
+			<button id="menu-toggle" class="menu-toggle">Menu</button>
 		</section>
 	</section>
 	<section id="home">
@@ -37,8 +38,10 @@
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ut hic vitae adipisci unde
 						 commodi cupiditate repudiandae placeat esse id laudantium 
 						 laborum, inventore ad, nam obcaecati praesentium quidem? Impedit, nisi.</p>
-					<a href="#" class="button">Hire Me</a>
-					<a href="#" class="button">Whatsapp</a>
+					<div class="button">
+						<a href="mailto:muhammednihalea@gmail.com" class="button">Hire Me</a>
+						<a href="https://wa.me/qr/7BGIAWCGURLGP1" class="button">Whatsapp</a>
+					</div>
 				</div>
 				<div class="right">
 					<img src="images/Muhammednihalea.png" alt="Muhammednihalea">
@@ -65,13 +68,14 @@
 				rem, repellendus necessitatibus dolorem aiores saepe id nobis qui eos possimus corrupti nemo alias facilis quas aliquam? Obcaecati, 
 				quam repellendus. Dolor quod nulla veritatis nostrum accusantium error repellat suscipit in iure unde, maxime vero dolores reiciendis. Ratione
 					accusamus obcaecati explicabo molestiae? Blanditiis officiisexpedita quae inventore, eum magnam ducimus ullam laudantium?</p>
-				<div><a href="#" class="button">My Resume <img src="images/arrow.svg" alt="Go to my Resume" /></a></div>
+				<div><a href="https://drive.google.com/file/d/1vxXnZMHrOQviTEC59LhmeoJU4fZ8GH-g/view?usp=drive_link" class="button">My Resume <img src="images/arrow.svg" alt="Go to my Resume"/></a></div>
 			</div>
 		</section>
 	</section>
 	<section id="qualification">
 		<section class="wrapper">
 			<div>
+				<h1>Qualification</h1>
 				<ul>
 					<li>
 						<h3>Degree</h3>
@@ -162,20 +166,40 @@
 				</div>
 			</div>
 			<div class="contact">
-				<a href="#">
-					<img src="images/whatsapp.png" alt="whatsapp" />
-				</a>
-				<a href="#">
-					<img src="images/instagram.png" alt="instagram" />
-				</a>
-				<a href="#">
-					<img src="images/linkedin.png" alt="linkedin" />
-				</a>
-				<a href="#">
-					<img src="images/call.png" alt="call" />
-				</a>
+				<ul>
+					<li>
+						<a href="https://wa.me/qr/7BGIAWCGURLGP1">
+							<img src="images/whatsapp.png" alt="whatsapp" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/m_ni_h_al?igsh=MXd4MWExYzBnZXZ0aQ==">
+							<img src="images/instagram.png" alt="instagram" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/linkedin.png" alt="linkedin" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/call.png" alt="call" />
+						</a>
+					</li>
+				</ul>
 			</div>
 		</section>
 	</section>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		  const menuToggle = document.getElementById('menu-toggle');
+		  const nav = document.querySelector('section#menu nav');
+		  
+		  menuToggle.addEventListener('click', function() {
+			nav.classList.toggle('visible');
+		  });
+		});
+	</script>
 </body>
 </html>
